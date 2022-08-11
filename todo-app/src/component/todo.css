@@ -1,0 +1,165 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    ;
+
+}
+
+.main {
+    margin: 30px;
+
+}
+
+.heading h1 {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0px auto;
+    width: 40%;
+    background-color: #3e50b1;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.input_box {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 40%;
+    height: 100px;
+    margin: 20px auto;
+
+}
+
+.input {
+    height: 40px;
+    width: 400px;
+    margin: 30px;
+    font-size: 20px;
+    border-bottom-right-radius: 15px 3px;
+    border-bottom-left-radius: 3px 15px;
+    border: solid 3px transparent;
+    border-bottom: dashed 3px #3e50b1;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 1rem;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+.input:focus {
+    outline: none;
+}
+
+/* .input:hover {
+
+    color: gray;
+    border-color: #3e50b1;
+    transition: 1s ease;
+} */
+
+button {
+    background-color: #3e50b1;
+    color: #ffffff;
+    border-radius: 0px;
+    margin-bottom: 5px;
+    height: 40px;
+
+}
+
+/* button span {
+    background: #f1f5f8;
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 2px solid hsl(198, 1%, 29%);
+  } */
+
+/* table {
+    height: 200px;
+    margin: 0px auto;
+    border-radius: 10px;
+    background-color:white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: ;
+    
+} */
+
+td {
+    height: 20px;
+    width: 4600px;
+    border-bottom: 2px solid #3e50b1;
+    padding-left: 20px;
+    padding-top: 40px;
+    margin-left: 300px;
+
+
+}
+
+.tr {
+    margin: 20px;
+    padding: 3px;
+    width: 50%;
+    margin: 0px auto;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.edit {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+
+}
+
+.delete {
+    font-size: 20px;
+}
+
+.delete:hover {
+    cursor: pointer;
+}
+
+.img {
+    height: 100px;
+    margin-left: 500px;
+}
+
+.heading__title {
+    transform: rotate(2deg);
+    padding: 0.2rem 1.2rem;
+    border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+    background-color: #3e50b1;
+    font-size: 1.5rem;
+    color: white;
+}
+
+button {
+    /* color: #3e50b1; */
+    padding: 0;
+    border: none;
+    transform: rotate(4deg);
+    transform-origin: center;
+    font-family: 'Gochi Hand', cursive;
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    box-shadow: 0 2px 0 hsl(198, 1%, 29%);
+    background-color: #3e50b1;
+
+}
+
+.btn {
+    background-color: #3e50b1;
+    color: #ffffff;
+}
+
+button:active,
+.button:focus {
+    transform: translateY(4px);
+    padding-bottom: 0px;
+    outline: 0;
+}
